@@ -1,6 +1,6 @@
 import pygame
 
-# Checking if load in is succesfull
+# Checking if load-in is successful
 try:
     pygame.init()
 except False:
@@ -91,7 +91,6 @@ def checkMoveKey():
                 moveCharacter()
             else:
                 pass
-
 
 while True:
     makeCharacter()
