@@ -19,15 +19,15 @@ DisplayX = 400
 DisplayY = 400
 Display = pygame.display.set_mode((DisplayX, DisplayY))
 Display.fill(white)
-border = pygame.image.load('Border.png')
+border = pygame.image.load('Sprites/Border.png')
 Display.blit(border, (0, 0))
 
 # Initializing Character Directions
-CharacterUp = pygame.image.load('Up.png')
-CharacterDown = pygame.image.load('Down.png')
-CharacterCenter = pygame.image.load('Center.png')
-CharacterRight = pygame.image.load('Right.png')
-CharacterLeft = pygame.image.load('left.png')
+CharacterUp = pygame.image.load('Sprites/Basic Movement/Up.png')
+CharacterDown = pygame.image.load('Sprites/Basic Movement/Down.png')
+CharacterCenter = pygame.image.load('Sprites/Basic Movement/Center.png')
+CharacterRight = pygame.image.load('Sprites/Basic Movement/Right.png')
+CharacterLeft = pygame.image.load('Sprites/Basic Movement/Left.png')
 
 # Character Basic Movement Functions
 # Character Coords
