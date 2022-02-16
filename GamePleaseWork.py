@@ -16,7 +16,7 @@ blue = (0, 0, 255)
 
 # Initializing Display
 DisplayX = 400
-DisplayY = 400
+DisplayY = 450
 Display = pygame.display.set_mode((DisplayX, DisplayY))
 Display.fill(white)
 border = pygame.image.load('Sprites/Border.png')
